@@ -24,3 +24,25 @@ a:hover {
   text-align: center;
   padding-top: 109px;
 }
+
+.container_search {
+  margin-top: 50px;
+}
+
+.box_search {
+  border: 1px solid silver;
+  display: inline;
+  margin-left: 30%;
+  padding: 10px;
+}
+.input_search {
+  display: inline;
+}
+
+.voice_img{
+  display: inline;
+}
+
+.div-border {
+  border: 2px solid black;
+}
