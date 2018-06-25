@@ -10,23 +10,28 @@
 </head>
 <body>
   <header>
-    <div class="menu">
+    <div>
       <nav>
-        <div>
+        <div class="menu">
           <div class="div_nav">
-            <a href="#" role="button">Gmail</a>
+            <a href="" role="button" class="a_nav">Gmail</a>
           </div>
           <div class="div_nav">
-            <a href="#" role="button">Images</a>
+            <a href="" role="button" class="a_nav">Images</a>
           </div>
-          <div class="div_nav">
-            <a href="#" title="Google apps" role="button"><img src="./img/icon-apps-gray.png"></a>
+          <!--
+          <div class="div_nav apps_nav">
+            <a href="" title="Google apps" role="button" class="a_nav"><img src="./img/icon-apps-gray.png"></a>
           </div>
-          <div class="div_nav">
-            <a href="#" title="0 Google notifications" role="button"><img src="./img/bell.png"></a>
+          -->
+          <div class="div_nav apps_nav">
+            <a href="" title="Google apps" role="button" class="a_nav a_apps"></a>
           </div>
-          <div class="div_nav">
-            <a href="#" title="Google Account: Alexander Kononok (alex.kononok@gmail.com)" role="button"><img src="./img/me.png"></a>
+          <div class="div_nav apps_nav">
+            <a href="" title="0 Google notifications" role="button" class="a_nav"><img src="./img/bell.png"></a>
+          </div>
+          <div class="div_nav apps_nav">
+            <a href="" title="Google Account: Alexander Kononok (alex.kononok@gmail.com)" role="button" class="a_nav"><img src="./img/me.png" class="user_img"></a>
           </div>
         </div>
       </nav>
@@ -39,40 +44,48 @@
     <div class="container_search">
       <div class="box_search">
         <div class="input_search">
-          <input type="text" name="search" style="margin: 4px; width: 503px; border: none; height: 34px; font: 16px arial,sans-serif; outline: none;">
+          <input type="text" name="search" class="input_search" >
         </div>
         <div class="voice_img">
-          <a href="#" title="Search by voice"><img src="./img/icon-google-mic.png"></a>
+          <a href="" title="Search by voice"><img src="./img/icon-google-mic.png"></a>
         </div>  
       </div>
     </div>
-    <div>
-      <div>
-        <input value="Google Search" type="submit">
+    <div class="box_btn">
+      <div class="btn_search">
+        <input value="Google Search" type="submit" class="btn btn_google_search">
       </div>
-      <div>
-        <input value="I'm Feeling Lucky" type="submit">
+      <div class="btn_search">
+        <input value="I'm Feeling Lucky" type="submit" class="btn btn_lucky">
       </div>
     </div>
   </main>
   <footer>
-    <div>
-      <span>Belarus</span>
+    <div class="box_user_country">
+      <div class="user_country">Belarus</div>
     </div>
-    <div>
+    <div class="footer_nav">
       <div class="footer_nav_left">
-        <ul>
-          <li><a href="#" role="button">Advertising</a></li>
-          <li><a href="#" role="button">Business</a></li>
-          <li><a href="#" role="button">About</a></li>
-        </ul>
+        <div class="btn_footer">
+          <a href="" role="button" class="a_footer">Advertising</a>
+        </div>
+        <div class="btn_footer">
+          <a href="" role="button" class="a_footer">Business</a>
+        </div>
+        <div class="btn_footer">
+          <a href="" role="button" class="a_footer">About</a>
+        </div>
       </div>
       <div class="footer_nav_right">
-        <ul>
-          <li><a href="#" role="button">Privacy</a></li>
-          <li><a href="#" role="button">Terms</a></li>
-          <li><a href="#" role="button">Settings</a></li>
-        </ul>
+        <div class="btn_footer">
+            <a href="" role="button" class="a_footer">Privacy</a>
+          </div>
+          <div class="btn_footer">
+            <a href="" role="button" class="a_footer">Terms</a>
+          </div>
+          <div class="btn_footer">
+            <a href="" role="button" class="a_footer">Settings</a>
+          </div>
       </div>
     </div>
   </footer>
