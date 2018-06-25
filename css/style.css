@@ -19,6 +19,7 @@ body {
   background-image: url(/img/icon-apps-gray.png);
   width: 18px;
   height: 18px;
+  
 }
 
 .a_apps:hover {
@@ -31,8 +32,8 @@ body {
 .menu {
   display: inline;
   float: right;
-  margin-top: 8px;
-  padding-right: 48px;
+  margin-top: 16px;
+  padding-right: 20px;
   font-size: 13px;
 }
 
@@ -40,46 +41,72 @@ body {
   display: inline-block;
   vertical-align: middle;
   line-height: 24px;
-  margin-right: 10px;
+  margin-left: 16px;
 }
 
-.apps_nav {
-  margin-top: 8px;
+.bell {
+  display: block;
+  background-image: url(/img/bell.png);
+  background-position: center;
+  background-size: 14px;
+  width: 18px;
+  height: 18px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+}
+
+.bell:hover {
+  background-color: black;
 }
 
 .user_img {
+  display: block;
+  background-image: url(/img/me.png);
+  background-position: center;
   height: 30px;
   width: 30px;
   border-radius: 100%;
+  margin-right: 12px;
 }
 
 .center_logo {
   text-align: center;
-  padding-top: 190px;
+  padding-top: 198px;
 }
 
 .container_search {
-  margin-top: 50px;
+  margin-top: 22px;
 }
 
 .box_search {
   border: 1px solid silver;
-  display: inline;
   margin-left: 30%;
-  padding: 10px;
+  width: 586px;
+  height: 42px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px 0px silver;
 }
+
+.box_search:hover {
+  box-shadow: 0 1px 4px silver;
+}
+
 .input_search {
-  display: inline;
-  margin: 4px;
+  display: inline-block;
+  vertical-align: top;
   height: 34px;
+  margin-top: 4px;
+  margin-left: 20px; 
   width: 503px;
   border: none;
-  font: 16px;
+  font-size: 16px;
   outline: none;
 }
 
 .voice_img{
-  display: inline;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .box_btn {
